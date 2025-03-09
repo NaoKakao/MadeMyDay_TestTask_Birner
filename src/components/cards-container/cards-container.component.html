@@ -1,0 +1,12 @@
+<div class="container">
+  @for (image of images$ | async; track image.id) {
+    <div class="card">
+      <img [src]="image.url" [alt]="'Image with id' + image.id">
+      <div class="btns">
+        <button (click)="rateImage(image.id, 'like')">👍</button>
+        <span>What do you think?</span>
+        <button (click)="rateImage(image.id, 'dislike')">👎</button>
+      </div>
+    </div>
+  }
+</div>

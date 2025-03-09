@@ -1,0 +1,31 @@
+header{
+  background: #fef804;
+}
+
+.container{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 280px){
+  h1{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 568px){
+  h1{
+    font-size: 24px;
+  }
+}
+
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}

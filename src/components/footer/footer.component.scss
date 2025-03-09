@@ -1,0 +1,33 @@
+footer{
+  background-color: #111;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 280px){
+  span{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 568px){
+  span{
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}

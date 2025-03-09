@@ -1,0 +1,12 @@
+@use 'ngx-toastr/toastr';
+
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+}
